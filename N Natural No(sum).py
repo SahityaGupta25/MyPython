@@ -1,4 +1,5 @@
-from re import I
+# Write a Python Program to calculate sum of N Numbers
+#------------------------------------------------------
 
 
 n=int(input("Enter a Number\n"))

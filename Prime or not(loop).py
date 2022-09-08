@@ -12,4 +12,4 @@ while (i<=n-1):
 if (i==n):
     print("Prime")
 else :
-    print("Composite")
+    print("Composite") 

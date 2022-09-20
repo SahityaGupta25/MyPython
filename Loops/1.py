@@ -6,4 +6,4 @@ n=int(input("Enter a No.\t"))
 sum=0
 for a in range(1,n+1):
     sum=sum+a
-    print(sum)
+print("sum of first ",n,"natural numbers is",sum)

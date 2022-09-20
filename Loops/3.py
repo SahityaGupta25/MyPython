@@ -5,4 +5,4 @@ n=int(input("Enter a Number\t"))
 cb=0
 for a in range(1,n+1):
     cb=a**3+cb
-    print(cb)
+print("Sum of cubes of first ",n, "natural numbers is",cb)

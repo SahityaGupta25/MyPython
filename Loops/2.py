@@ -5,4 +5,4 @@ n=int(input("Enter a Number\t"))
 sq=0
 for a in range(1,n+1):
     sq=a**2+sq
-    print(sq)
+print("Sum of Squares of first",n,"natural numbers is",sq)

@@ -5,4 +5,4 @@ n=int(input("Enter a Number"))
 s=0
 for a in range(1,(n*2)+1,2):
     s=s+a
-    print(s)
+print("Sum of first",n,"odd natural numbers is",s)

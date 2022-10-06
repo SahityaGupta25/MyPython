@@ -3,8 +3,10 @@
 
 x=int(input("Enter Number of Month\t"))
 if (x==2):
-    print("28 Days")
-elif (x==1 or x==3 or x==7 or x==8 or x==10 or x==12):
+    print("28 Days or 29 Days")
+elif x in (1,3,5,7,8,10,12):
     print("31 Days")
-else :
+elif x in (4,6,9,11):
     print("30 Days")
+else :
+    print("Invalid Operation")

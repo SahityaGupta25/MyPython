@@ -1,2 +1,2 @@
-from Import2 import x
-print(x)
+import Import2
+print(Import2.x)

@@ -1,4 +1,4 @@
-import Import2
+from Import2 import x as xuv
 x=66
-print(Import2.x)
+print(xuv)
 print(x)

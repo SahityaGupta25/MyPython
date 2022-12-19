@@ -1,0 +1,4 @@
+1. Write a python script to create a ArithmeticError
+2. Write a python script to create a ValueError
+3. Write a python script to handle the ArithmeticError
+4. Write a python script to handle a ValueError

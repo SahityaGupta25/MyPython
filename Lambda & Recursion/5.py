@@ -1,11 +1,8 @@
-# 5. Create a generator to produce first n terms of Fibonacci series
+# 5. Write a recursive python function to print first N even natural numbers.
 
-def fib(n):
-    a,b=0,1
-    while n:
-        yield a
-        a,b=b,a+b
-        n-=1
+def eve(n):
+    if n>0:
+        eve(n-1)
+        print(n*2)
 
-for x in fib(int(input("Enter a Number\t"))):
-    print(x,end=' ')
+eve(4)

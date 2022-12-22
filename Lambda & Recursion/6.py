@@ -1,18 +1,8 @@
-# 6. Create a generator to produce first n prime numbers
+#6. Write a recursive python function to print first N even natural numbers in reverse order.
 
+def eve(n):
+    if n>0:
+        print(n*2)
+        eve(n-1)
 
-
-
-def prime_no(num):
-    for num in range(2, num+ 1):
-            for i in range(2, num):
-                if (num % i) == 0:
-                    break
-                else:
-                    yield(num)
-prime_no(10)
-
-for x in prime_no(int(input("Enter a Number\t"))):
-     print(x,end=' ')
-
-
+eve(4)

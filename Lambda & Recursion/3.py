@@ -1,11 +1,8 @@
-# 3. Create a generator to produce first n even natural numbers
+# 3. Write a recursive python function to print first N odd natural numbers
 
-def even(n):
-    i=2
-    while n:
-        yield i
-        i+=2
-        n-=1
+def eve(n):
+    if n>0:
+        eve(n-1)
+        print(n*2-1)
 
-for x in even(int(input("Enter a Number\t"))):
-    print(x,end=' ')
+eve(4)

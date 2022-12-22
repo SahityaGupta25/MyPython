@@ -1,12 +1,9 @@
-# 4. Create a generator to produce squares of first N natural numbers
+# 4. Write a recursive python function to print first N odd natural numbers in reverse order
 
 
-def sq(n):
-    i=1
-    while n:
-        yield i**2
-        i+=1
-        n-=1
+def eve(n):
+    if n>0:
+        print(n*2-1)
+        eve(n-1)
 
-for x in sq(int(input("Enter a Number\t"))):
-    print(x,end=' ')
+eve(4)
